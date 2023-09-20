@@ -32,7 +32,7 @@ const NavBar = () => {
       </div>
 
       {/* FOR MOBILE */}
-      <div className="flex md:hidden bg-white justify-between p-3">
+      <div className="flex md:hidden bg-white justify-between p-3 rounded-lg">
         <p className="font-bold text-lg text-bgColor">
           Certify<span className="text-black">Block</span>
         </p>

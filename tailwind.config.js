@@ -52,6 +52,7 @@ module.exports = {
       },
       colors: {
         bgColor: "#CD4507",
+        lightYellow: "#F5E48C",
         lightModeTextColor: "#000000",
         lighttextGray: "#929292",
         lightPrimary: "#0D1BCF",
