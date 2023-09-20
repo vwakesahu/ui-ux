@@ -1,24 +1,14 @@
-import React from "react";
+import React from 'react'
+import NavBar from './Navbar'
+import HeroComponent from './HeroComponent'
 
 const Header = () => {
   return (
-    <div className="flex justify-between">
-      <div>
-        <p>
-          Certify <span>Block</span>
-        </p>
-      </div>
-      <div>
-        <ul className="flex gap-2">
-            <li>Idea</li>
-            <li>Solution</li>
-            <li>Process Flow</li>
-            <li>Tech Stack</li>
-            <li>Use Case</li>
-        </ul>
-      </div>
+    <div className='flex flex-col'>
+        <NavBar />
+        <HeroComponent />
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
