@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import ProblemStatement from "./components/ProblemStatement";
 import Footer from "./components/Footer";
+import Solution from "./components/Solution";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <div className="md:p-12 p-8">
           <ProblemStatement />
+          <Solution />
         </div>
         <Footer />
       </main>
