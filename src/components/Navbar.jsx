@@ -14,7 +14,7 @@ const NavBar = () => {
       <div className="hidden md:flex justify-between bg-white p-6 rounded-lg items-center">
         <div>
           <p className="font-bold text-xl text-bgColor">
-            Certify<span className="text-black">Block</span>
+            Certify<span className="text-black">Blocks</span>
           </p>
         </div>
         <div>
@@ -34,7 +34,7 @@ const NavBar = () => {
       {/* FOR MOBILE */}
       <div className="flex md:hidden bg-white justify-between p-3 rounded-lg">
         <p className="font-bold text-lg text-bgColor">
-          Certify<span className="text-black">Block</span>
+          Certify<span className="text-black">Blocks</span>
         </p>
         <img src={MenuIcon} className=" w-8" onClick={menuHandle} />
         {isMenu && (
